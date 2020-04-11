@@ -1,4 +1,4 @@
-# Firebase Depolyment
+# 1. Firebase Depolyment
     - npx create-react-app firebase-hosting-demo
     - npm install firebase-tools -g
     - firebase login
