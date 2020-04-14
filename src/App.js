@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
-
-function App() {
+import Counter from "./components/Counter";
+import ProductList from "./components/Productslist";
+const App = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Counter />
+      <hr />
+      <ProductList />
     </div>
   );
 }
